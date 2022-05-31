@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <img class="svg" src="img/download.svg">
+    <div class="app">
+        <div class="screen join-screen active">
+            <h2 class="title">SheerIt</h2>
+            <div class="form">
+                <h2><span>S</span>hare <span>F</span>iles <span>E</span>asily</h2>
+                <div class="form-input">
+                    <a href="/send"><button>Send Files</button></a>
+                </div>
+                <div class="form-input">
+                    <a href="/receive"><button>Receive Files</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="screen fs-screen">
+            <div class="files-list">
+                <div class="title">Shared files</div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="socket.io/socket.io.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.1/download.min.js"></script>
+    <script type="text/javascript" src="receiver.js"></script>
+</body>
+
+</html>

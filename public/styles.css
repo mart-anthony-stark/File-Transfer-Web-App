@@ -41,3 +41,26 @@ body {
   color: #222;
   margin-bottom: 20px;
 }
+.join-screen .form button {
+  background: #111;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 20px;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+.join-screen .form #join-id b {
+  color: #222;
+  display: block;
+  margin-top: 20px;
+}
+.join-screen .form #join-id span {
+  display: inline-block;
+  font-size: 25px;
+  font-family: monospace;
+  color: #222;
+  padding: 10px;
+  border: 1px solid #111;
+  margin-top: 5px;
+}
